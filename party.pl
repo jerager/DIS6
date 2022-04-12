@@ -1,58 +1,58 @@
-men([tom, fred, billy, tim, frank, barry]).
-women([sue, jane, betty, ellen, joan, betsy]).
+humanities([tom, fred, lizzie, tim, karen, barry]).
+science([bob, jane, betty, jeff, joan, betsy]).
 
-funny([tom, sue, tim, ellen]).
-interesting([fred, betty, frank, betsy]).
+funny([tom, bob, tim, jeff]).
+interesting([fred, betty, karen, betsy]).
 
 
 available(tom, saturday).
 available(fred, saturday).
-available(sue, saturday).
+available(bob, saturday).
 available(jane, saturday).
 available(tom, friday).
-available(billy, friday).
-available(sue, friday).
+available(lizzie, friday).
+available(bob, friday).
 available(betty, friday).
 available(tim, saturday).
-available(frank, saturday).
-available(ellen, saturday).
+available(karen, saturday).
+available(jeff, saturday).
 available(joan, saturday).
 available(tim, friday).
 available(barry, friday).
-available(ellen, friday).
+available(jeff, friday).
 available(betsy, friday).
 
-democrat(tom).
-democrat(sue).
-democrat(tim).
-democrat(ellen).
+tory(tom).
+tory(bob).
+tory(tim).
+tory(jeff).
 
-republican(fred).
-republican(jane).
-republican(frank).
-republican(joan).
+liberal(fred).
+liberal(jane).
+liberal(karen).
+liberal(joan).
 
-independent(billy).
+independent(lizzie).
 independent(betty).
 independent(barry).
 independent(betsy).
 
 know(tom, fred).
 know(fred, tom).
-know(fred, billy). 
-know(billy, fred).
-know(billy, betty). know(betty, billy).
-know(betty, sue). know(tom, sue).
-know(sue, tom). know(sue, betty).
-know(sue, jane). know(jane, sue).
-know(tim, frank). know(frank, tim).
-know(frank, barry). know(barry, frank).
+know(fred, lizzie). 
+know(lizzie, fred).
+know(lizzie, betty). know(betty, lizzie).
+know(betty, bob). know(tom, bob).
+know(bob, tom). know(bob, betty).
+know(bob, jane). know(jane, bob).
+know(tim, karen). know(karen, tim).
+know(karen, barry). know(barry, karen).
 know(barry, betsy). know(betsy, barry).
-know(betsy, ellen). know(tim, ellen).
-know(ellen, tim). know(ellen, betsy).
-know(ellen, joan). know(joan, ellen).
+know(betsy, jeff). know(tim, jeff).
+know(jeff, tim). know(jeff, betsy).
+know(jeff, joan). know(joan, jeff).
 
-dislike(billy, fred).
-dislike(sue, jane).
-dislike(barry, frank).
-dislike(ellen, joan).
+dislike(lizzie, fred).
+dislike(bob, jane).
+dislike(barry, karen).
+dislike(jeff, joan).
